@@ -1,0 +1,5 @@
+The required libraries are:
+
+ - numPy
+ - time
+ - threading
