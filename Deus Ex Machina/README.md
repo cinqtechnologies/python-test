@@ -26,3 +26,27 @@ To simulate the data collection, the collectData method must use the class array
 The processData method must receive the collected data and run the following processing operations: multiply each element by the scalar 5 and calculate the transposed of this result. After this processing stage, prints the final result to the user and perform the transition to the collecting state.
 
 At any time, the user must be allowed to send a input command to the FSM to achieve a state transition accordingly to the previous table.
+
+## Solution
+### Installing
+To run solution, PIP is required. If you don't have PIP, please refer to [PIP install docs](https://pip.pypa.io/en/stable/installing/). Clone this repository then enter Deus Ex machina folder then run pip:
+``` 
+    $ cd python-test/Deus\ Ex\ Machina/
+    $ pip install -r requirements.txt 
+```
+
+Then run tests to check if everything is ok, no one test should fail:
+``` 
+    $ python tests.py 
+```
+
+### Usage
+To run, navigate to Deus Ex Machina folder then run main.py:
+```
+    $ cd python-test/Deus\ Ex\ Machina/
+    $ python main.py
+```
+
+By default, machine will generate a matrix with length 3x3. If you want to increase that size, open main.py and change value of constante **SQUARE_ARRAY_LENGTH**
+
+While running, you can press ENTER at anytime to get machine state.
